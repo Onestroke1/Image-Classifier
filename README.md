@@ -1,6 +1,9 @@
 # AI Programming with Python Project
 
-Project code for Udacity's AI Programming with Python Nanodegree program. In this project, I develop code for an image classifier built with PyTorch.
+Project code for Udacity's AI Programming with Python Nanodegree program. In this project, I developed code for an image classifier built with PyTorch.
+
+### Hardware Requirement
+This project requires a lot of computation to train the neural network. The code is written to run on an Nvidia GPU. Using a CPU would take hours to complete as compared to using a GPU which could take a half hour or less. At the time this code was written Pytorch only works on Nvidia GPUs.
 
 ### Install
 
@@ -22,14 +25,18 @@ Template code is provided in the `Image Classifier Project.ipynb` notebook file.
 
 ### Run
 
+Simply launch the Jupyter Notebook software from the Anaconda software package then open the file `Image Classifier Project.ipynb` to excute the code.
+
+or
+
 In a terminal or command window, navigate to the top-level project directory `Image-Classifer/` (that contains this README) and run one of the following commands:
 
 ```bash
-ipython notebook finding_donors.ipynb
+ipython notebook Image Classifier Project.ipynb
 ```  
 or
 ```bash
-jupyter notebook finding_donors.ipynb
+jupyter notebook Image Classifier Project.ipynb
 ```
 
 This will open the iPython Notebook software and project file in your browser.
