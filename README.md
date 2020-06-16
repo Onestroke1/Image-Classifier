@@ -21,7 +21,11 @@ I recommend installing [Anaconda](https://www.continuum.io/downloads), a pre-pac
 
 ### Code
 
-Template code is provided in the `Image Classifier Project.ipynb` notebook file. You will also be required to use the flower dataset which can be found [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz). This dataset will need to be decompressed using a tool from [Rarlabs](https://www.rarlab.com/download.htm). Place the dataset under the working directory _Image-Classifer_.
+Template code is provided in the `Image Classifier Project.ipynb` notebook file. You will also be required to use the flower dataset which can be found [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz). This dataset will need to be decompressed using a tool from [Rarlabs](https://www.rarlab.com/download.htm). Place the dataset under the directory _Image-Classifer/Flowers/_.
+
+### Data
+
+The dataset consists of 102 types of flowers. It is split into three parts, training, validation, and testing. Each part is in a separate folder under the _Image-Classifer/Flowers/_ folder.
 
 ### Run
 
@@ -39,8 +43,4 @@ or
 jupyter notebook Image Classifier Project.ipynb
 ```
 
-This will open the iPython Notebook software and project file in your browser.
-
-### Data
-
-The dataset consists of 102 types of flowers. It is split into three parts, training, validation, and testing. Each part is in a separate folder under the `Image-Classifer/Flowers/` folder.
+This will open the iPython Notebook software and project file in your browser. From there you can execute the code by running each cell.
