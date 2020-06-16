@@ -41,4 +41,6 @@ jupyter notebook Image Classifier Project.ipynb
 
 This will open the iPython Notebook software and project file in your browser.
 
+### Data
 
+The dataset consists of 102 types of flowers. It is split into three parts, training, validation, and testing. Each part is in a separate folder under the `Image-Classifer/Flowers/` folder.
