@@ -33,7 +33,7 @@ Simply launch the Jupyter Notebook software from the Anaconda software package t
 
 or
 
-In a terminal or command window, navigate to the top-level project directory `Image-Classifer/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory _Image-Classifer/_ (that contains this README) and run one of the following commands:
 
 ```bash
 ipython notebook Image Classifier Project.ipynb
